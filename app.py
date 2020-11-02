@@ -26,7 +26,7 @@ def upload(files, connection_string, container_name):
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
-    azure_storage_connectionstring = "DefaultEndpointsProtocol=https;AccountName=lawncetest;AccountKey=r8jFDWI3Pv1UmpAp24f0eHos9AsQ5LNHIjciqUJB8lXLSIz01iwjQY57uEVUyjaN0LYx9wANCsyTSJcre3FqUw==;EndpointSuffix=core.windows.net"
+    azure_storage_connectionstring = ""
     mp3_container_name =  "mp3"
     source_folder = "/Users/lawnce/Desktop/fma/data/fma_test"
 
