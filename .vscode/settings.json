@@ -1,0 +1,19 @@
+{
+    "python.pythonPath": "env/bin/python",
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "connectString": "Server=tcp:4225group9.database.windows.net,1433;Initial Catalog=output_db;Persist Security Info=False;User ID=lawnce@gmail.com@4225group9;Password=Echo10416!!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+            "name": "conn 1"
+        }
+    ]
+}
